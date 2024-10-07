@@ -1,0 +1,79 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.qr-code {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.message {
+  font-size: 1.5rem;
+  color: #28a745;
+  text-align: center;
+}
+
+.player-responses {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.player-responses ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.player-responses li {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.player-responses li:last-child {
+  border-bottom: none;
+}
+.button {
+  display: inline-block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue color for primary button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.join-button {
+  background-color: #28a745; /* Green color for Join button */
+}
+
+.join-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.submit-button {
+  background-color: #ffc107; /* Yellow color for Submit button */
+}
+
+.submit-button:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}
